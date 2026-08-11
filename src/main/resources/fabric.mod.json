@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/Rico040/DisableEndermanGriefing"
 	},
-	"license": "CC0-1.0",
+  "license": "WTFPL",
 	"icon": "assets/disable_enderman_griefing/icon.png",
 	"environment": "*",
 	"entrypoints": {
