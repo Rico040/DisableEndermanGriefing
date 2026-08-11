@@ -4,9 +4,9 @@
 	"package": "io.github.rico040.disable_enderman_griefing.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
+    "EndermanMixin"
 	],
 	"client": [
-      "EndermanMixin"
 	],
 	"server": [
 	],
