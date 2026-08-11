@@ -1,30 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "example_mod",
+	"id": "disable_enderman_griefing",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Disable Enderman Griefing",
+	"description": "Do not steal my blocks please.",
 	"authors": [
-		"Me!"
+		"Rico040"
 	],
 	"contact": {
-		"homepage": "https://example.com/",
-		"sources": "https://github.com/OrnitheMC/ornithe-template-mod"
+		"sources": "https://github.com/Rico040/DisableEndermanGriefing"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/example_mod/icon.png",
+	"icon": "assets/disable_enderman_griefing/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"init": [
-			"com.example.example_mod.ExampleMod"
+			"io.github.rico040.disable_enderman_griefing.EnderGriefingMod"
 		]
 	},
 	"mixins": [
-		"example_mod.mixins.json"
+		"disable_enderman_griefing.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
-		"minecraft": "1.7.2",
+		"minecraft": "1.0.0",
 		"osl-entrypoints": ">=0.4.0"
 	}
 }
